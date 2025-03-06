@@ -7,6 +7,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+    font-weight: lighter;
     background-color: rgb(234, 234, 234);
 }
 
@@ -27,6 +28,8 @@ header {
 }
 
 button {
+    font-weight: lighter;
+    font-size: 1rem;
     display: block;
     width: 100%;
     margin: 0.5rem 0;
@@ -44,5 +47,6 @@ button:hover {
 }
 
 #score {
+    font-size: 1.5rem;
 
 }
