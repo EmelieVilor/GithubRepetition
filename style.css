@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+}
+
+header {
+    background-color: rgb(34, 65, 95);
+    color: white;
+    padding: 1rem;
+}
+
+#quiz-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: rgb(34, 65, 95);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:darkorange;
+    scale: 1.05;
+}
+
+#score {
+
+}
